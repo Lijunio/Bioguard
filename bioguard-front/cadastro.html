@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionários</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Cadastro de Funcionários</h1>
+        <form id="cadastroForm">
+            <div class="form-group validation-container">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+                <span id="nome-validation" class="validation-icon"></span>
+            </div>
+            <div class="form-group validation-container">
+                <label for="cpf">CPF:</label>
+                <input type="text" class="form-control" id="cpf" name="cpf" required maxlength="14">
+                <span id="cpf-validation" class="validation-icon"></span>
+            </div>
+            <div class="form-group validation-container">
+                <label for="data_nascimento">Data de Nascimento:</label>
+                <input type="text" class="form-control" id="data_nascimento" name="data_nascimento" required>
+                <span id="data_nascimento-validation" class="validation-icon"></span>
+            </div>
+            <div class="form-group validation-container">
+                <label for="cargo">Cargo:</label>
+                <input type="text" class="form-control" id="cargo" name="cargo" required>
+                <span id="cargo-validation" class="validation-icon"></span>
+            </div>
+            <div class="form-group validation-container">
+                <label for="departamento_id">Departamento:</label>
+                <select class="form-control" id="departamento_id" name="departamento_id" required>
+                    <option value="1">Recursos Humanos</option>
+                    <option value="2">TI</option>
+                    <option value="3">Financeiro</option>
+                </select>
+                <span id="departamento_id-validation" class="validation-icon"></span>
+            </div>
+            <div class="form-group validation-container">
+                <label for="data_admissao">Data de Admissão:</label>
+                <input type="text" class="form-control" id="data_admissao" name="data_admissao" required>
+                <span id="data_admissao-validation" class="validation-icon"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+.bg-delicias {
+    background-color: #ebd1dd;
+    color: #7e6061;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-link {
+    color: #ae8e8a;
+    font-size: 28px;  
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    background-color: #f8f1f2; 
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.titulo-principal {
+    background-color: #807b80;  
+    color: white;  
+    padding: 5px 0;
+    margin-bottom: 20px; 
+}
+
+.w-33 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px; 
+}
+
+.carousel-item .d-flex img {
+    width: 100%;  
+    height: auto;  
+    display: block;
+}
+
+.card-vertical {
+    height: 370px;
+    transition: background-color 0.3s; 
+}
+
+.card-horizontal {
+    height: 300px;
+    transition: background-color 0.3s; 
+}
+
+.card-img {
+    object-fit: cover;
+    height: 250px;
+    width: 200px;
+    margin: auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.btn-custom {
+    background-color: #ae8e8a;
+    color: white;
+}
+
+.card-horizontal:hover, .card-vertical:hover {
+    background-color: #cccccc; 
+}
+
+
+#contato p {
+    font-size: 18px; 
+}
+
+.contato-info a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+.contato-info a:hover {
+    color: #9e8aae; 
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Ponto</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Registro de Ponto</h1>
+        <div class="text-center mb-4">
+            <h2 id="relogio"></h2>
+        </div>
+        <div class="iframe-container">
+        <iframe src="https://wokwi.com/projects/399231421348870145" width="800" height="600" style="border: none;"></iframe>
+        </div>
+        <form id="registroPontoForm">
+            <div class="form-group validation-container">
+                <label for="funcionario_id">ID do Funcionário:</label>
+                <input type="text" class="form-control" id="funcionario_id" name="funcionario_id" required>
+                <span id="funcionario_id-validation" class="validation-icon"></span>
+            </div>
+            <div class="form-group validation-container">
+                <label for="tipo_registro">Tipo de Registro:</label>
+                <select class="form-control" id="tipo_registro" name="tipo_registro" required>
+                    <option value="entrada">Entrada</option>
+                    <option value="almoco_entrada">Almoço Entrada</option>
+                    <option value="almoco_saida">Almoço Saída</option>
+                    <option value="saida">Saída</option>
+                </select>
+                <span id="tipo_registro-validation" class="validation-icon"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar Ponto</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
