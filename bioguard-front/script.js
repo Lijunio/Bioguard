@@ -141,6 +141,7 @@ async function fetchFuncionarios() {
             const dataNascimento = new Date(funcionario.data_nascimento).toLocaleDateString('pt-BR');
             const dataAdmissao = new Date(funcionario.data_admissao).toLocaleDateString('pt-BR');
             row.innerHTML = `
+                <td>${funcionario.id}</td>
                 <td>${funcionario.nome}</td>
                 <td>${funcionario.cpf}</td>
                 <td>${dataNascimento}</td>
