@@ -4,7 +4,6 @@ BioGuard é um sistema de gerenciamento de ponto que utiliza um leitor de biomet
 
 ## **Índice**
 
-- [Visão Geral](#visão-geral)
 - [Instalação](#instalação)
 - [Configuração](#configuração)
 - [Uso](#uso)
@@ -14,10 +13,6 @@ BioGuard é um sistema de gerenciamento de ponto que utiliza um leitor de biomet
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 - [Contato](#contato)
-
-## **Visão Geral**
-
-![Arquitetura do Projeto BioGuard](https://via.placeholder.com/800x400.png?text=BioGuard+Architecture)
 
 ## **Instalação**
 
