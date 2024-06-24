@@ -49,7 +49,7 @@ h1, h2 {
 }
 
 .card-horizontal {
-    height: 300px;
+    height: auto;
     transition: background-color 0.3s; 
 }
 
@@ -77,7 +77,6 @@ h1, h2 {
     background-color: #cccccc; 
 }
 
-
 #contato p {
     font-size: 18px; 
 }
@@ -90,4 +89,43 @@ h1, h2 {
 
 .contato-info a:hover {
     color: #9e8aae; 
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .navbar {
+        margin-top: 10px;
+    }
+
+    .header .nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-link {
+        font-size: 16px;  
+    }
+
+    .card-horizontal {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-horizontal .col-md-4, .card-horizontal .col-md-8 {
+        width: 100%;
+    }
+
+    .card-horizontal .col-md-4 {
+        margin-bottom: 15px;
+    }
+
+    .card-horizontal .col-md-8 {
+        padding: 15px;
+    }
 }
